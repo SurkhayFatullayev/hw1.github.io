@@ -1,0 +1,100 @@
+@font-face {
+    src: url(fonts/Blender-Pro-Bold.otf);
+    font-family:nos;
+}
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
+html{
+    margin: 0%;
+    font-family: 'Bahnschrift',sans-serif ;
+    border: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    border: 0px;
+    background: #cc9933!important;
+    background-image: url("Untitled-1.jpg");
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    position: relative;
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+    z-index: 2;
+  }
+  
+.header li {
+    width:25%;
+    text-align: center;
+    display: inline-block;
+  }
+  
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.header li a:hover {
+    background-color: #111;
+  }
+#abme-in img{
+    height:680px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    pointer-events:none;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-10%, -56%);
+    z-index: 0;
+}
+#abme{
+    min-height: 615px;
+    width: 100%;
+}
+#me{
+    font-size: 180%;
+    color: #cc9933;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    mix-blend-mode: difference;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#me h2{
+    font-weight: bold!important;  
+}
+#me h4{
+    font-style: italic;
+}
+.divider{
+    position: relative;
+    width: 100%;
+    top: -23px;
+}
+.int{
+    display: flex;
+    justify-content: center;
+}
+.int-box{
+    width: 80%;
+    min-height: 100px;
+    background-color:none;
+    margin: 10px;
+}
+#interests{
+    background: #333;
+    color: white;
+}

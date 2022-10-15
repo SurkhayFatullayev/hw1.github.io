@@ -1,0 +1,55 @@
+@font-face {
+    src: url(fonts/Blender-Pro-Bold.otf);
+    font-family:nos;
+}
+@import url('http://fonts.cdnfonts.com/css/bahnschrift');
+html{
+    margin: 0%;
+    font-family: 'Bahnschrift',sans-serif ;
+    border: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0%;
+    border: 0px;
+    background: #cc9933!important;
+    background-image: url("Untitled-1.jpg");
+    overflow-x: hidden;
+}
+.content{
+    width:25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #333;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background: cornsilk;
+    text-align: center;
+    width: 98%;
+}
+#icons{
+    background: #333;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 100%;
+    background-color: #333;
+}
+#icons i{
+    color: antiquewhite;
+}
+span:hover{
+    color: #cc9933;
+}
+#icons i:hover{
+    color: red;
+}
